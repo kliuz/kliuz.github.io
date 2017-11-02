@@ -1,28 +1,34 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/projects">Projects</a></li>
-	        		<li><a href="/about">About</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:kl16@princeton.edu">email</a></li>
-	        		<li><a href="https://github.com/kliuz">github.com/kliuz</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+	<meta name="author" content="Kevin Liu">
+	<meta name="keywords" content="Kevin Liu, Princeton, 2020, projects, electrical engineering">
+	<meta name="description" content="A site to host all of my projects that I'm proud of">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/projects">Projects</a></li>
+			<li><a href="/about">About</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		
+		{{ content }}
+		
+	</div><!-- /.container -->
+	<footer>
+		<ul>
+			<li><a href="mailto:kl16@princeton.edu">email</a></li>
+			<li><a href="https://github.com/kliuz">github.com/kliuz</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
