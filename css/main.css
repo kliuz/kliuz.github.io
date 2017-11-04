@@ -1,6 +1,6 @@
 body {
     padding: 0px;
-    margin: 100px auto;
+    margin: 0px auto;
     width: 70%;
 }
 nav ul, footer ul {
@@ -29,7 +29,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-.container-fluid {
+.row {
     background-color: #d3d3d3;
 }
 footer {
