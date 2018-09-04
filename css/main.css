@@ -1,53 +1,83 @@
-body {
-    padding: 0px;
-    margin: 50px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.25em;  /* modified this */
-    line-height: 1.5em;
-    color: #333;
-}
-img {
-    height: 75%;
-    width: 75%;
-}
-.row {
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: #d3d3d3;
-}
-footer {
-    padding-top: 50px;
-    font-size: .8em;
+@import url("https://fonts.googleapis.com/css?family=Karla");
+
+body, html {
+    height: 100%;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+html, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar {
+    background: #192231;
+}
+
+.nav-link {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #98878f;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #98878f;
+}
+
+.header {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/princeton.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.about h3 {
+    margin: 2em;
+}
+
+.portfolio h3 {
+    margin: 2em;
+}
+
+.text {
+    position: absolute; 
+    bottom: 0;
+    background-color: rgba(25, 34, 49, 0.8); /* Black see-through */
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: #ffffff;
     font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
 }
 
-ul.posts li {
-    list-style: none;
+.wikipedia-bot:hover .text {
+    opacity: 1;
+}
+
+.education h3 {
+    margin: 2em;
+}
+
+.about, .portfolio, .education {
+    padding-bottom: 5em;
+}
+
+.contact h3 {
+    margin: 2em;
+}
+
+.contact {
+    padding-bottom: 20em;
+}
+
+.table {
+    font-family: 'Karla', sans-serif;
 }
