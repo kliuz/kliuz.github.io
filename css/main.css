@@ -8,6 +8,14 @@ html, h1, h2, h3, h4, h5, h6, p {
     font-family: 'Karla', sans-serif;
 }
 
+h3::before {
+    display: block;
+    content: " ";
+    margin-top: -3em;
+    height: 3em;
+    visibility: hidden;
+}
+
 .navbar {
     background: #192231;
 }
