@@ -1,0 +1,56 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+code, pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+  color: #e81c4f;
+}
+
+.title {
+  text-align: center;
+  font-size: 300%;
+}
+
+.social {
+  text-align: center;
+}
+
+#linkedin-logo, #github-logo {
+  padding: 1px 5px 1px 5px;
+}
+
+.img-link {
+  text-decoration: none !important;
+  border:0px !important;
+  outline:none;
+  border-width: 0px;
+  outline-width:0px;
+  border-bottom: none;
+}
